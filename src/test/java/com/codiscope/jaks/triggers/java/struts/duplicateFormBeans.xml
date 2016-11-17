@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config>
+
+<form-beans>
+
+  <form-bean name="loginForm" type="org.apache.struts.validator.DynaValidatorForm">
+    <form-property name="name" type="java.lang.String" />
+    <form-property name="password" type="java.lang.String" />
+  </form-bean>
+
+  <form-bean name="loginForm" type="org.apache.struts.validator.DynaActionForm">
+    <form-property name="favoriteColor" type="java.lang.String" />
+  </form-bean>
+
+</form-beans>
+</struts-config>

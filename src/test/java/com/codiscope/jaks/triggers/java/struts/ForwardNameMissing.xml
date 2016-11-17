@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config>
+<global-forwards>
+  <!-- @name is blank: -->
+  <forward name="" path="/login.do"/>
+  <!-- @name is missing: -->
+  <forward path="/logout.do"/>
+</global-forwards>
+</struts-config>

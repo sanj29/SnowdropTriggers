@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts-config>
+<form-beans>
+ <global-forwards>
+    <forward name="login" path="" />
+    <forward name="error" />
+    <forward name="valid" path="/" />
+</global-forwards>
+ </form-beans>
+</struts-config>
