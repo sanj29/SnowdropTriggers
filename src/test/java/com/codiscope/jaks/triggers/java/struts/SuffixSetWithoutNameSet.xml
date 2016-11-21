@@ -24,7 +24,7 @@
 		
 		<action path="/setupForm"
 			type="com.cigital.boi.struts.editprofile.action.SetupProfileAction"
-			name="SnowDrop" scope="session" validate="true" input="test" suffix="test">
+			name="" scope="session" validate="true" input="test" suffix="test">
 			<!-- xml-custom-missing-action-input Rule should fire -->
 			<forward name="success" path="/profile.jsp" />
 			<forward name="sql-error" path="/editProfileSqlError.jsp" />
